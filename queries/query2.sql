@@ -1,0 +1,10 @@
+SELECT * FROM test.Vendors;
+SELECT DISTINCT vend_country FROM test.Vendors;
+SELECT COUNT(vend_country) FROM test.Vendors;
+SELECT COUNT(*) FROM test.Products;
+SELECT COUNT(*) FROM test.Vendors;
+SELECT COUNT(*) FROM test.Orders;
+SELECT COUNT(*) FROM test.Customers;
+SELECT COUNT(*) FROM test.OrderItems;
+SELECT COUNT(*) FROM OrderItems;
+SELECT * FROM Customers ORDER BY cust_id DESC;
